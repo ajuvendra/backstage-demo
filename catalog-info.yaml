@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-ajuvendra
+  description: This is an example application in ajuvendra repo.
+  annotations:
+    github.com/project-slug: backstage/demo-ajuvendra
+spec:
+  type: website
+  owner: ajuvendra
+  lifecycle: development
